@@ -9,10 +9,9 @@ function arrayAdder(arr1, arr2) {
   }
 }
 
-function positionNode(position = null, length = null, pred = null) {
+function positionNode(position = null, pred = null) {
   return {
     position,
-    length,
     pred,
   };
 }
