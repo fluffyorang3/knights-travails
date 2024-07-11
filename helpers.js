@@ -17,4 +17,15 @@ function positionNode(position = null, length = null, pred = null) {
   };
 }
 
-export { arrayAdder, positionNode };
+const possibleMoves = [
+  [1, 2],
+  [-1, 2],
+  [1, -2],
+  [-1, -2],
+  [2, 1],
+  [-2, 1],
+  [2, -1],
+  [-2, -1],
+];
+
+export { arrayAdder, positionNode, possibleMoves };
