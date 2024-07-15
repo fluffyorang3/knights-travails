@@ -1,6 +1,6 @@
 import { arrayAdder, positionNode, possibleMoves } from "./helpers.js";
 
-const startPosition = [0, 0];
+const startPosition = [1, 0];
 const endPosition = [7, 7];
 let vertexQueue = [];
 let foundNode = null;
